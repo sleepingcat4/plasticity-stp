@@ -11,10 +11,15 @@ To find STP (Short-term synaptic plasticity) we used steinmetz dataset, as it co
 
 These data-points help us to calculate the firing rate for each neuron and even go further to calculating firing rates for each response category and plot them to understand the neural plasticity. 
 
+##### Dataset
+[Refer to the dataset and data-points used](https://colab.research.google.com/github/NeuromatchAcademy/course-content/blob/main/projects/neurons/load_steinmetz_decisions.ipynb#scrollTo=h4xiszYEXcht)
+
 ##### Method of calculation
 Finding plasticity from spiking data is challenging. Traditional thought is there will be more than usual firing after brief trials once the mouse starts to learn. 
 
 Which is a good idea but not complete. We used a method proposed in the paper **Measuring synaptic transmission and plasticity with fEPSP recordings in behaving mice.** Via taking the normalised slope aka *Quantification of short-term synaptic plasticity (STP) is typically done by measuring the slope of each response and normalizing it to the slope of the first response. Synaptic facilitation is defined as a ratio greater than one and synaptic depression is defined as a ratio smaller than one.*
+
+**Notebook for the experiment & results:** [notebook](Neuronal_Plasticity.ipynb)
 
 ![image](https://github.com/sleepingcat4/plasticity-stp/assets/81933585/6b2568fe-872f-4109-9a41-8e42dd77653e)
 
